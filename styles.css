@@ -1,0 +1,270 @@
+body
+{
+    font-family: 'Montserrat';
+    overflow-x :hidden;
+}
+
+#title
+{
+    background-color: #ff4c68;
+    color: white;
+}
+
+h1
+{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: 4%;
+}
+
+h2
+{
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.container-fluid
+{
+    padding: 6% 15% 1%;
+}
+
+.navigbar
+{
+    padding: 2% 3% 2% 2%;
+}
+
+.navbar-brand
+{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.title-box
+{
+    padding: 3% 0 2% 3%;
+}
+
+.download-btns
+{
+    margin: 1%;
+}
+
+.mobile-img
+{ 
+    width: 50%;
+}
+
+.mobile-box
+{
+    /* padding: 1%; */
+    text-align: center;
+}
+
+.mid-box
+{
+    color: #8f8f8f;
+    padding: 10% 10%;
+    text-align: center;
+}
+
+.emoji
+{
+    color: #ef8172;
+    padding: 5%;
+}
+
+.emoji:hover
+{
+    color: #ff4c68;
+}
+
+#review
+{
+    background-color: #ff4c68;
+    padding: 0 2% 5%;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.carousel-item
+{
+    padding: 6% 12% 12%;
+}
+
+.reviews-h2
+{ 
+    color: white;
+    font-size: 2.3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.reviews-img
+{
+    border-radius: 100%;
+    width: 10%;
+    margin: 1%;
+}
+
+.reviews-names
+{
+    display: inline-block;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    padding: 1%;
+}
+
+.brands-img
+{
+    width: 13%;
+}
+
+
+#price-section
+{
+    padding: 10% 7%;
+    text-align: center;
+    font-family: 'Montserrat';
+
+}
+
+.price-box
+{
+    margin-top: 3%;
+}
+
+.price-h1
+{
+    padding-bottom: 1%;
+}
+
+.card-h3
+{
+    font-weight: bolder;
+}
+
+#price-section p
+{
+    color: grey;
+    line-height: 1;
+}
+
+#contact
+{
+    text-align: center;
+}
+
+.final-words
+{
+    background-color: #ff4c68;
+    padding: 6% 15%;
+    color: white;
+}
+
+.logos
+{
+    padding: 8% 14% 6%;
+    color: #8f8f8f;
+}
+
+.icons
+{
+    color: black;
+    margin: 1% 1% 2%;
+}
+
+@media (max-width: 750px)
+{
+    body
+    {
+        text-align: center;
+    }
+
+    .navig-values
+    {
+        text-align: left;
+    }
+
+    .title-h1
+    {
+        font-size: 2.5rem;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .download-btns
+    {
+        margin: 2%;
+    }    
+
+    .reviews-h2
+    {
+        font-size: 1.7rem;
+    }
+
+    .reviews-names
+    {
+        font-size: 0.9rem;
+    }
+
+    .reviews-img
+    {
+        width: 15%;
+    }
+
+    .carousel-item
+    {
+        padding: 9% 15% 12%;
+    }
+
+    #price-section
+    {
+        padding: 8% 9%;
+        font-size: 0.9rem;
+    }
+
+    .price-h1
+    {
+        font-size: 1.7rem;
+    }
+
+    .price-box
+    {
+        margin: 4% 2%;
+    }
+
+    .price-tag
+    {
+        font-size: 2.3rem;
+    }
+
+    .card-h3
+    {
+        font-size: 1.5rem;
+    }
+
+    .final-h1
+    {
+        font-size: 2.2rem;
+        margin: 3% 1%;
+    }
+
+    .final-words
+    {
+        padding-top: 7%;
+        padding-bottom: 8%;
+    }
+
+    .logos
+    {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+
